@@ -2,7 +2,7 @@ const express = require("express");
 const fetchData = require("../utils/fetchData");
 const router = express.Router();
 
-// Fetch and return raw data from NuroAI
+// Fetch and return raw data from NORAIAI
 router.get("/", async (req, res) => {
   try {
     const data = await fetchData();

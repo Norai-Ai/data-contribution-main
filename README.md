@@ -1,10 +1,10 @@
-# NuroAI Backend
+# NORAI  Backend
 
-This backend fetches and processes data from NuroAI's data platform (`https://www.nuroai.io/data`).
+This backend fetches and processes data from NORAI's data platform  
 
 ## Features
 
-- Fetch raw data from the NuroAI API.
+- Fetch raw data from the NORAI API.
 - Process data (e.g., summarize, filter).
 - Serve data through API endpoints.
 
@@ -12,8 +12,8 @@ This backend fetches and processes data from NuroAI's data platform (`https://ww
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/nuroai-backend.git
-   cd nuroai-backend
+   git clone https://github.com/Norai-Ai/data-contribution-main.git
+   cd NORAI-backend
    ```
 
 2. Install dependencies:
@@ -34,7 +34,7 @@ This backend fetches and processes data from NuroAI's data platform (`https://ww
 ## API Endpoints
 
 ### GET `/api/data`
-Fetch raw data from NuroAI.
+Fetch raw data from NORAI.
 
 ### GET `/api/data/processed`
 Fetch and return processed data.

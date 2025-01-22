@@ -11,5 +11,5 @@ app.use("/api/data", dataRoutes);
 // Start the server
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
-  console.log(`NuroAI Backend running on port ${PORT}`);
+  console.log(`NORAI Backend running on port ${PORT}`);
 });
